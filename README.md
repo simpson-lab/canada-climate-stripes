@@ -8,4 +8,4 @@ Let's create resources to visualise Canada's changing climate using data from th
 
 ## Our submission
 
-1[Warming stripes for each Canadian province and territory](plots/climate-stripes-geographical-small.svg)
+![Warming stripes for each Canadian province and territory](plots/climate-stripes-geographical-small.svg)
