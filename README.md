@@ -6,6 +6,10 @@ In 2018, Ed Hawkins, a climate scientist from the UK, introduced Warming Stripes
 
 Let's create resources to visualise Canada's changing climate using data from the Adjusted and Homogenised Canadian Climate Data (AHCCD) set and allow people to easily generate climate stripes for their local region.
 
+## Team
+
+Gavin Simpson & Kimberly Hinz, University of Regina
+
 ## Our submission
 
 ![Warming stripes for each Canadian province and territory](plots/climate-stripes-geographical-small.svg)
