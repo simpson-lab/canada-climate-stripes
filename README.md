@@ -14,4 +14,4 @@ Gavin Simpson & Kimberly Hinz, University of Regina
 
 ![Warming stripes for each Canadian province and territory](plots/climate-stripes-geographical-small.svg)
 
-Additional images are in the [plots](,/plots/) folder
+Additional images are in the [plots](./plots/) folder
