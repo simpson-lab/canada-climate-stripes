@@ -85,7 +85,8 @@ ggsave(here("plots", "climate-stripes-geographical.svg"),
 
 ## as above but with province / territory labels
 plot_grid(plotlist = plt_lst, ncol = 1, align = "h", axis = "lr",
-          labels = str_to_upper(names(plt_lst)))
+          labels = str_to_upper(names(plt_lst)), label_size = 56,
+          hjust = -0.05, vjust = 1.2)
 
 ggsave(here("plots", "climate-stripes-geographical-with-labels.pdf"),
        width = 27, height = 40)
@@ -96,7 +97,8 @@ ggsave(here("plots", "climate-stripes-geographical-with-labels.svg"),
 ## stripes but in alphabetical order by province/territory abbreviation
 ord <- order(names(plt_lst))
 plot_grid(plotlist = plt_lst[ord], ncol = 1, align = "h", axis = "lr",
-          labels = str_to_upper(names(plt_lst)[ord]))
+          labels = str_to_upper(names(plt_lst)[ord]), label_size = 56,
+          hjust = -0.05, vjust = 1.)
 
 ggsave(here("plots", "climate-stripes-alphabetical-with-labels.pdf"),
        width = 27, height = 40)
